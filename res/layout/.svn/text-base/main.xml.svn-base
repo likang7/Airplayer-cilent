@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout android:id="@+id/top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/top_back">
+        
+        <Button android:id="@+id/reflesh"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:text="刷新"/>
+            
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AirPlayer"
+            android:textSize="30dp"/>
+        
+        <ImageButton android:id="@+id/rtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/return_btn"/>        
+    
+    </LinearLayout>
+    
+    <LinearLayout android:id="@+id/main"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+        
+        <ListView android:id="@+id/playlist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"></ListView>
+        
+    </LinearLayout>
+        
+</LinearLayout>
