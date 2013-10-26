@@ -14,10 +14,8 @@ complie the project in Eclipse, then install the apk to an Android phone >= 2.3.
 
 Screenshot
 ==========
-![connect](./pic/1.jpg)  
-![list](./pic/2.jpg)  
-![video detail](./pic/3.jpg)  
-![play video](./pic/4.jpg)
+![connect](./pic/1.jpg)        ![list](./pic/2.jpg)  
+![video detail](./pic/3.jpg)   ![play video](./pic/4.jpg)
 
 
 
